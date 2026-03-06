@@ -1,50 +1,32 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Animated Banner" width="100%" />
+<img src="./assets/banner.svg" width="100%" alt="Cyberpunk Banner" />
+<br><br>
 
-<h1>Wenura Thalgahagoda</h1>
-<h3>Creative Developer • UI/UX Designer • Illustrator</h3>
+<img src="./assets/background.gif" width="100%" alt="Purple Cyberpunk Background" />
+
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hey, I'm Wenura Thalgahagoda
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&duration=2800&pause=800&color=C770FF&center=true&vCenter=true&width=900&lines=Software+Engineering+Intern;Game+Developer;UI%2FUX+Designer;Digital+Illustrator;Creating+Games+with+Style+and+Story" alt="Typing Animation" />
+
+<br>
 
 <p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=00F5D4&center=true&vCenter=true&width=800&lines=Software+Engineering+Student;Game+Developer;UI%2FUX+Designer;Digital+Illustrator;Turning+ideas+into+interactive+experiences" alt="Typing SVG" />
-</p>
-
-<p>
-  <a href="https://github.com/wenura2"><img src="https://img.shields.io/github/followers/wenura2?label=Followers&style=for-the-badge&color=111827&labelColor=00F5D4" /></a>
-  <a href="https://github.com/wenura2"><img src="https://img.shields.io/github/stars/wenura2?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=111827&labelColor=7C3AED" /></a>
+  <a href="https://www.linkedin.com/in/wenura-thalgahagoda-735a15325">
+    <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.facebook.com/share/1Ahy4QqjDr/?mibextid=wwXIfr">
+    <img src="https://img.shields.io/badge/Facebook-5D3FD3?style=for-the-badge&logo=facebook&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/wenura__mmi?igsh=Zm81NGo3anRqcmYz&utm_source=qr">
+    <img src="https://img.shields.io/badge/Instagram-B026FF?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://github.com/wenura2">
+    <img src="https://img.shields.io/badge/GitHub-1A1A2E?style=for-the-badge&logo=github&logoColor=C770FF" />
+  </a>
 </p>
 
 </div>
-
----
-
-<img src="./assets/background.svg" alt="Background Art" width="100%" />
-
-## About Me
-
-I’m a creative-minded developer who enjoys blending **technology, design, and storytelling** into interactive experiences.
-
-My focus includes:
-- Game development
-- UI/UX design
-- Software engineering
-- Digital illustration
-- Creative project building
-
----
-
-## Socials
-
-<p>
-  <a href="https://www.linkedin.com/in/wenura-thalgahagoda-735a15325"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://www.facebook.com/share/1Ahy4QqjDr/?mibextid=wwXIfr"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
-  <a href="https://www.instagram.com/wenura__mmi?igsh=Zm81NGo3anRqcmYz&utm_source=qr"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
-  <a href="https://github.com/wenura2"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
-</p>
-
----
-
-## Tech Stack
 
 <p>
   <img src="https://skillicons.dev/icons?i=cs,html,css,js,python,unity,figma,github,vscode" />
@@ -85,3 +67,5 @@ My focus includes:
 <div align="center">
   <sub>Designed by Wenura</sub>
 </div>
+
+---
