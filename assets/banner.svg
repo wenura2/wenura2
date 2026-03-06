@@ -1,136 +1,83 @@
 <svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#090014"/>
-      <stop offset="50%" stop-color="#160022"/>
-      <stop offset="100%" stop-color="#090014"/>
+      <stop offset="0%" stop-color="#0b0614"/>
+      <stop offset="50%" stop-color="#1a0b2e"/>
+      <stop offset="100%" stop-color="#0b0614"/>
     </linearGradient>
 
-    <linearGradient id="textGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#F5EFFF"/>
-      <stop offset="50%" stop-color="#D8B4FE"/>
-      <stop offset="100%" stop-color="#F5EFFF"/>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f5eaff"/>
+      <stop offset="50%" stop-color="#d8b4fe"/>
+      <stop offset="100%" stop-color="#f5eaff"/>
     </linearGradient>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <style>
-      .name {
-        font: 700 66px 'Courier New', monospace;
-        fill: url(#textGlow);
-        letter-spacing: 4px;
-      }
-
-      .subtitle {
-        font: 400 22px 'Courier New', monospace;
-        fill: #C4B5FD;
-        letter-spacing: 2px;
-      }
-
-      .prompt {
-        font: 500 22px 'Courier New', monospace;
-        fill: #A855F7;
-      }
-
-      .cursor {
-        animation: blink 1s steps(1) infinite;
-      }
-
-      .particle {
-        animation: float 4s ease-in-out infinite;
-      }
-
-      .particle2 {
-        animation: float2 6s ease-in-out infinite;
-      }
-
-      @keyframes blink {
-        0%, 49% { opacity: 1; }
-        50%, 100% { opacity: 0; }
-      }
-
-      @keyframes float {
-        0% { transform: translateY(0px); opacity: 0.25; }
-        50% { transform: translateY(-10px); opacity: 0.9; }
-        100% { transform: translateY(0px); opacity: 0.25; }
-      }
-
-      @keyframes float2 {
-        0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
-        50% { transform: translateY(-12px) translateX(8px); opacity: 0.8; }
-        100% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
-      }
-    </style>
   </defs>
 
-  <rect width="1600" height="420" rx="22" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="24" fill="url(#bg)"/>
 
-  <circle cx="280" cy="120" r="180" fill="#A855F7" opacity="0.08"/>
-  <circle cx="1330" cy="300" r="190" fill="#7C3AED" opacity="0.08"/>
+  <circle cx="180" cy="80" r="180" fill="#a855f7" opacity="0.10"/>
+  <circle cx="1380" cy="320" r="190" fill="#7c3aed" opacity="0.10"/>
+
+  <circle cx="70" cy="45" r="5" fill="#f5eaff">
+    <animate attributeName="cy" values="45;35;45" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="505" cy="28" r="5" fill="#c084fc">
+    <animate attributeName="cy" values="28;18;28" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1490" cy="70" r="4" fill="#d8b4fe">
+    <animate attributeName="cy" values="70;58;70" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="120" y="85"
+        font-family="monospace"
+        font-size="34"
+        fill="#a855f7">$ ./load_profile</text>
+
+  <text x="120" y="135"
+        font-family="monospace"
+        font-size="30"
+        fill="#ddd6fe">identity:</text>
+
+  <text x="120" y="170"
+        font-family="monospace"
+        font-size="26"
+        fill="#ffffff">GAME DEVELOPER • DESIGNER • CREATIVE BUILDER</text>
+
+  <text x="120" y="205"
+        font-family="monospace"
+        font-size="22"
+        fill="#a78bfa">status: online_</text>
 
   <g filter="url(#glow)">
-    <circle class="particle" cx="140" cy="90" r="3" fill="#E9D5FF"/>
-    <circle class="particle2" cx="240" cy="160" r="3.5" fill="#C084FC"/>
-    <circle class="particle" cx="390" cy="100" r="4" fill="#A855F7"/>
-    <circle class="particle2" cx="1240" cy="90" r="3" fill="#E9D5FF"/>
-    <circle class="particle" cx="1360" cy="170" r="3.5" fill="#C084FC"/>
-    <circle class="particle2" cx="1470" cy="110" r="4" fill="#A855F7"/>
+    <text x="800" y="300"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="72"
+          font-weight="700"
+          letter-spacing="2"
+          fill="url(#nameGrad)">
+      WENURA THALGAHAGODA
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0; 0 -10; 0 0; 0 10; 0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+    </text>
   </g>
 
-  <text x="180" y="140" class="prompt">$ ./load_profile.sh</text>
-  <text x="180" y="185" class="prompt">$ identity:</text>
-
-  <!-- Typed name -->
-  <g filter="url(#glow)">
-    <text x="180" y="245" class="name">W</text>
-    <text x="180" y="245" class="name" opacity="0">WE
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.05;0.06;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WEN
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.10;0.11;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENU
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.15;0.16;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENUR
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.20;0.21;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.25;0.26;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA T
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.32;0.33;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA TH
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.37;0.38;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA THA
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.42;0.43;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA THALG
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.48;0.49;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA THALGAHA
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.56;0.57;1"/>
-    </text>
-    <text x="180" y="245" class="name" opacity="0">WENURA THALGAHAGODA
-      <animate attributeName="opacity" values="0;0;1;1" dur="6s" repeatCount="indefinite" keyTimes="0;0.68;0.69;1"/>
-    </text>
-
-    <!-- Blinking cursor -->
-    <rect x="995" y="195" width="14" height="58" rx="2" fill="#F5EFFF" class="cursor">
-      <animate attributeName="x" values="215;255;310;365;420;515;560;610;710;845;995;995" dur="6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <text x="180" y="305" class="subtitle">GAME DEVELOPER • DESIGNER • CREATIVE BUILDER</text>
-  <text x="180" y="345" class="subtitle" opacity="0.8">status: online_</text>
-
-  <rect x="8" y="8" width="1584" height="404" rx="18" stroke="#C084FC" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="8" y="8" width="1584" height="404"
+        rx="18"
+        fill="none"
+        stroke="#c084fc"
+        stroke-opacity="0.20"
+        stroke-width="2"/>
 </svg>
