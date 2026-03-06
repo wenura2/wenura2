@@ -1,13 +1,13 @@
 <div align="center">
-
-<img src="./assets/banner.svg" width="100%" alt="Cyberpunk Banner" />
-<br><br>
+  <img src="./assets/name-banner.svg" width="100%" alt="Floating name banner" />
+</div>
 
 <img src="./assets/background.gif" width="100%" alt="Purple Cyberpunk Background" />
 
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> Hey, I'm Wenura Thalgahagoda
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&duration=2800&pause=800&color=C770FF&center=true&vCenter=true&width=900&lines=Software+Engineering+Intern;Game+Developer;UI%2FUX+Designer;Digital+Illustrator;Creating+Games+with+Style+and+Story" alt="Typing Animation" />
+
+
 
 <br>
 
