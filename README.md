@@ -33,6 +33,7 @@
 </p>
 
 ---
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 
 ## GitHub Analytics
 
@@ -53,6 +54,7 @@
 </div>
 
 ---
+<img src="https://komarev.com/ghpvc/?username=wenura2&label=Profile%20views&color=blueviolet&style=flat" />
 
 ## Current Focus
 
@@ -67,4 +69,5 @@
   <sub>Designed by Wenura</sub>
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" width="100%">
+
