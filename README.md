@@ -47,10 +47,16 @@
 
 ---
 
-## Contribution Snake
+## `> ARCADE.MODE // PACMAN_CONTRIBUTION_GRAPH`
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/wenura2/wenura2/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wenura2/wenura2/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wenura2/wenura2/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/wenura2/wenura2/output/pacman-contribution-graph-dark.svg">
+</picture>
+
 </div>
 
 ---
