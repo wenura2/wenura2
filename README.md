@@ -37,17 +37,10 @@
 ## GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wenura2&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wenura2&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=wenura2&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
-
-## `> ARCADE.MODE // PACMAN_CONTRIBUTION_GRAPH`
 
 <div align="center">
 
