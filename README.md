@@ -2,9 +2,9 @@
 
 <img src="./assets/banner.svg" alt="Animated Banner" width="100%" />
 
-# Hi there, I'm Wenura Thalgahagoda 👋
+# Greetings , I'm Wenura Thalgahagoda
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=00F5D4&center=true&vCenter=true&width=700&lines=Software+Engineering+Student;UI%2FUX+Designer;Procreate+Illustrator;Game+Developer;Building+Creative+Digital+Experiences" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=26&pause=1000&color=00F5D4&center=true&vCenter=true&width=700&lines=Software+Engineering+Intern;UI%2FUX+Designer;Procreate+Illustrator;Game+Developer;Building+Creative+Digital+Experiences" alt="Typing SVG" />
 
 </div>
 
