@@ -5,7 +5,7 @@
 <img src="./assets/background.gif" width="100%" alt="Purple Cyberpunk Background" />
 
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&duration=2800&pause=800&color=C770FF&center=true&vCenter=true&width=900&lines=Software+Engineering+Intern;Game+Developer;UI%2FUX+Designer;Digital+Illustrator;Creating+Games+with+Style+and+Story" alt="Typing Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=26&duration=2800&pause=800&color=C770FF&center=true&vCenter=true&width=900&lines=Software+Engineering+Intern;Game+Developer;Graphic+Designer+%26+Illustrator;Creating+Games+with+Style+and+Story" alt="Typing Animation" />
 
 
 
@@ -59,7 +59,6 @@
 ## Current Focus
 
 - Building polished game experiences
-- Improving UI/UX skills
 - Creating stronger portfolio projects
 - Growing as a multidisciplinary developer
 
@@ -70,4 +69,3 @@
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=7C3AED&height=120&section=footer" width="100%">
-
